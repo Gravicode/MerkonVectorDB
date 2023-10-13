@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33920.267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MerkonDB", "MerkonDB\MerkonDB.csproj", "{B5E151B6-9C9C-4E37-B502-791914B8D6D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connectors.Memory.Merkon", "Connectors.Memory.Merkon\Connectors.Memory.Merkon.csproj", "{02A9815E-57B0-47EA-AE5C-D9E886ED3D95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{C5E90819-963D-459D-A88E-89D0405ABC6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SKConnector", "SKConnector", "{680D1885-56FC-4023-849E-1E06A3AEA344}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AF5D5013-E263-4E85-A0AE-BEDAE762517C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMerkonDB", "TestMerkonDB\TestMerkonDB.csproj", "{B86D0AD0-164F-41FD-A5FF-54C04B2E6A1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5E151B6-9C9C-4E37-B502-791914B8D6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E151B6-9C9C-4E37-B502-791914B8D6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E151B6-9C9C-4E37-B502-791914B8D6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E151B6-9C9C-4E37-B502-791914B8D6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A9815E-57B0-47EA-AE5C-D9E886ED3D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A9815E-57B0-47EA-AE5C-D9E886ED3D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A9815E-57B0-47EA-AE5C-D9E886ED3D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A9815E-57B0-47EA-AE5C-D9E886ED3D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86D0AD0-164F-41FD-A5FF-54C04B2E6A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86D0AD0-164F-41FD-A5FF-54C04B2E6A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86D0AD0-164F-41FD-A5FF-54C04B2E6A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86D0AD0-164F-41FD-A5FF-54C04B2E6A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5E151B6-9C9C-4E37-B502-791914B8D6D8} = {C5E90819-963D-459D-A88E-89D0405ABC6F}
+		{02A9815E-57B0-47EA-AE5C-D9E886ED3D95} = {680D1885-56FC-4023-849E-1E06A3AEA344}
+		{B86D0AD0-164F-41FD-A5FF-54C04B2E6A1F} = {AF5D5013-E263-4E85-A0AE-BEDAE762517C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9179421D-07E1-4036-8842-0A5A2C02C493}
+	EndGlobalSection
+EndGlobal

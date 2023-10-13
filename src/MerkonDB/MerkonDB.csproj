@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="2.6.100-alpha" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0-rc.2.23479.6" />
+  </ItemGroup>
+
+</Project>
